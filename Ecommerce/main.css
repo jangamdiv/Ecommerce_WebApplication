@@ -1,0 +1,155 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+        padding: 0rem 1rem;
+        position: sticky;
+        top: 0;
+
+}
+
+#left {}
+
+#left>h2 {
+    color: red;
+    font-size: 1.5rem;
+}
+
+#cent {}
+
+#cent>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#cent>ul>li>a {
+    text-decoration: none;
+    color: red;
+    padding: 1rem;
+    display: block;
+
+}
+
+#cent>ul>li>a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+#right {}
+
+#right button {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(105, 3, 213);
+    color: whitesmoke;
+}
+
+#right button:active {
+    color: black;
+    background-color: whitesmoke;
+}
+
+#right>span {
+    color: white;
+}
+
+.design {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.design>div {
+    /* width: 20%; */
+    background-color: beige;
+    border-radius: 5px;
+}
+
+.design>div>img {
+    width: 100%;
+    height: 10rem;
+    border-radius: 5px;
+}
+
+.design>div>h3 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.design>div>h2 {
+    padding-left: 1rem;
+    margin-top: 0.5;
+    font-size: 1rem;
+
+}
+
+.design>div>button {
+    width: 100%;
+    height: 2rem;
+    border: none;
+    background-color: rgb(105, 3, 213);
+    border-radius: 5px;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+.design>div>button:active {
+    background-color: red;
+    color: black;
+}
+
+#search {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#search>input {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#search>button {
+    margin-top: 1rem;
+    padding: 0.8em;
+    background-color: rgb(105, 3, 213);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 1rem;
+
+}
+
+#search>button:active {
+    background-color: sandybrown;
+    color: white;
+}
+
+#cart-cont {
+    position: relative;
+}
+
+.fa-cart-shopping {
+    color: white;
+}
+
+#count{
+    color: red;
+    font-size: 0.5rem;
+    position: absolute;
+    top: -40%;
+    right: 0%;
+}
