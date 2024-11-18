@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 20% ;
+    margin:auto;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-top: 2rem;
+
+
+}
+
+input, label, button{
+   display: block;
+   margin-top: 0.2rem;
+   width: 100%;
+
+}
+
+button{
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 0.2remn 0rem;
+    color: white;
+}
+button:active{
+   background-color: rgb(142, 91, 91);
+}
+span{
+    color: red;
+}

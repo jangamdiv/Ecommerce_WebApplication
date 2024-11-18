@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+/* body{
+    
+} */
+
+form{
+    width: 20% ;
+    margin:auto;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-top: 200px;
+
+
+}
+
+input, label, button{
+    display: block;
+    margin-top: 0.2rem;
+    width: 100%;
+   
+ 
+ }
+
+ span{
+    color: red;
+ }
+
+ h3{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top:0%;
+    right: 0;
+ }
+ #show{
+    position: relative;
+ }
