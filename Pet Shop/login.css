@@ -1,0 +1,107 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body background and centering */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/vecteezy_dog-paw-seamless-pattern-vector-bone-french-bulldog_8651793.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#Form{
+    padding: 2px;
+    margin: 2px;
+}
+/* Styling the form container */
+form {
+    padding: 40px;
+    height: 400%;
+    width: 320px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: url(./img/boy-8233868_640.png);
+    background-size: cover;
+}
+
+/* Title styling */
+h2 {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #5827df;
+    font-weight: 600;
+    background-color: rgb(94 255 0);
+    width: 80%;
+    transform: translate(30px, 10px);
+}
+
+/* Input fields styling */
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    padding: 2px;
+    background-color: rgba(184, 229, 185, 0.942);
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    flex: 1;
+    width: 1rem;
+    height: 2rem;
+    background-color: rgba(184, 229, 185, 0.942);
+    border-radius: 5px;
+}
+
+/* Icon styling */
+.fa-user, .fa-lock {
+    color: #000000;
+    margin-right: 10px;
+    font-size: 18px;
+    
+}
+
+/* Button styling */
+button {
+    width: 70%;
+    padding: 10px;
+    background-color: #ffcb1e;
+    border: none;
+    border-radius: 4px;
+    color:rgb(84, 44, 78);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    background-color: #1c86ee;
+}
+
+/* Styling for spacing between form elements */
+span {
+
+    margin-top: 20px;
+    margin-bottom: 2px;
+    color:brown;
+    font-size: 16px;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+body {
+  
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(84, 44, 78); */
+    background-image: url(./img/paw-163683_1280.jpg);
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+    
+}
+
+#search {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column; /* Aligning the search dropdown and button vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+   
+   
+}
+label {
+    position: absolute;
+    left: 31rem;
+    color: #ffcb1e;
+}
+#petSearchDropdown {
+    padding: 8px;
+    background-color: #ffcb1e;
+    position: absolute;
+    left: 41rem;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 7px; /* Space between dropdown and button */
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+option {
+    background-color: #ffcb1e;
+    text-align: start;
+}
+
+.searchRes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#searchBtn {
+    background-color: #ffcb1e;
+   
+    border-radius: 5px;
+    color: rgb(84, 44, 78);
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    font-size: 14px;
+   
+        top: 141px;
+    left: 54rem;
+
+}
+
+#searchBtn:hover {
+    background-color: #1c86ee;
+    color: #fff;
+}
+
+#searchResult {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Gap between cards */
+}
+
+.pet-card {
+    background-color: rgba(105, 200, 107, 0.841);
+    color: rgb(84, 44, 78);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.pet-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}

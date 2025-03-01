@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color:rgb(84, 44, 78);
+}
+main{
+    margin-left: 5%;
+    color: whitesmoke;
+}
+
+#about{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+
+
+main li{
+   
+    
+}

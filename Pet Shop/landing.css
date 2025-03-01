@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styling for the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(94, 255, 0, 0.678);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#left > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#left > h2 {
+    font-size: 24px;
+    margin: 0;
+    color:rgb(84, 44, 78);
+    
+}
+
+/* Center navigation styling */
+#center {
+    display: flex;
+}
+
+#center > ul {
+    list-style: none;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+}
+
+#center > ul > li > a {
+    margin: 15px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #ffcb1e;
+     color:rgb(84, 44, 78);
+     border-radius: 5px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+
+}
+
+#center > ul > li > a:hover {
+    background-color: #3381d5c3;
+}
+
+/* Styling for the account section */
+#MyAccount {
+    display: flex;
+    align-items: center;
+    background-color:rgb(84, 44, 78);
+    /* background-image: url(./img/paw-163683_1280.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;  */
+}
+#MyAccount > img {
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 9rem;
+    
+}
+#right> a >button {
+    background-color: #ffcb1e;
+     color:rgb(84, 44, 78);
+     border: none;
+     padding: 0.5rem;
+     margin-left: 1rem;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#right > a>  button:hover {
+    background-color: #3381d5c3;
+}
